@@ -61,6 +61,7 @@ The app will start on [http://localhost:8080](http://localhost:8080) by default.
 
 ### 5. API Endpoints
 
+
 #### Create Wallet
 - **POST** `/api/wallets`
 - Body (JSON):
@@ -71,6 +72,19 @@ The app will start on [http://localhost:8080](http://localhost:8080) by default.
     "currency": "USD"
   }
   ```
+
+#### Bulk Create Wallets
+- **POST** `/api/wallets/bulk`
+- Body (JSON array):
+  ```json
+  [
+    {"ownerName": "Alice", "balance": 100.0, "currency": "USD"},
+    {"ownerName": "Bob", "balance": 200.0, "currency": "EUR"},
+    {"ownerName": "Charlie", "balance": 150.5, "currency": "GBP"}
+    // ... more records ...
+  ]
+  ```
+  Returns a list of created wallet objects. Use this to quickly add multiple wallets for testing or batch operations.
 
 #### Get All Wallets
 - **GET** `/api/wallets`
