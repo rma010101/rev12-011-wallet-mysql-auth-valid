@@ -154,7 +154,8 @@ The response will include fields like `content` (the records), `totalPages`, `to
   // ... other fields ...
 }
 ```
-<img width="830" height="631" alt="image" src="https://github.com/user-attachments/assets/d0b39383-97da-4c3b-a703-74ed7b3f2637" />
+<img width="857" height="681" alt="image" src="https://github.com/user-attachments/assets/0dcc31cd-7133-4722-bfa3-84433ad6215c" />
+
 
 
 
