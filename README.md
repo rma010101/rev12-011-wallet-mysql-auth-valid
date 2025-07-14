@@ -58,6 +58,9 @@ The app will start on [http://localhost:8080](http://localhost:8080) by default.
   - Password: `password`
 - Or, if you configure users in `application.properties`, use those credentials.
 
+- <img width="802" height="600" alt="image" src="https://github.com/user-attachments/assets/70b77e41-24f8-4328-a2f7-04631e88eec1" />
+
+
 
 ### 5. API Endpoints
 
