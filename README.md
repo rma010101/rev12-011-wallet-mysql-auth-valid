@@ -33,6 +33,8 @@ If you send invalid data, you will receive a 400 Bad Request with field-level er
   "currency": "Currency must be exactly 3 characters long"
 }
 ```
+<img width="829" height="453" alt="image" src="https://github.com/user-attachments/assets/2949244f-7afb-4516-a905-e8aab8eae78b" />
+
 ```
 git clone <your-repo-url>
 cd wallet_mysql_auth_valid
