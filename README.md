@@ -187,6 +187,9 @@ Send a POST request to `/api/wallets` with invalid data, for example:
   "currency": "Currency must be exactly 3 characters long"
 }
 ```
+<img width="829" height="453" alt="image" src="https://github.com/user-attachments/assets/2949244f-7afb-4516-a905-e8aab8eae78b" />
+
+
 
 #### Generic Error Example
 
